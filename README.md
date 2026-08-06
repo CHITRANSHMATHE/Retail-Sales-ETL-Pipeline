@@ -87,3 +87,23 @@ Business analysis includes:
 ---
 
 ## Project Structure
+             Raw Retail CSV
+                    │
+                    ▼
+           PySpark Data Ingestion
+                    │
+                    ▼
+         Data Profiling & Validation
+                    │
+                    ▼
+      Data Cleaning & Transformation
+                    │
+                    ▼
+          Feature Engineering
+                    │
+                    ▼
+            Spark SQL Analytics
+                    │
+        ┌───────────┴────────────┐
+        ▼                        ▼
+   Business Insights        Clean Dataset
